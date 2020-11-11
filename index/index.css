@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,600&family=Playfair+Display:ital@0;1&family=Raleway:ital,wght@1,300&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #FEEAE5;
+}
+
+header {
+	text-align: center;
+}
+
+h1 {font-family: Playfair Display
+}
+
+h2 {font-family: Playfair Display
+}
+
+nav {
+	position: fixed;
+	top: 10vh;
+	left: 1vw;
+	width: 70px;
+	background-color: #BEE1E6;
+	color: white;
+	font-family: sans-serif;
+} /*navagation 改成圓形menu icon選單,隨著頁面可以跑,除了首頁最底下要有打開的選單*/
+
+/*why did it get underlined and color-changed after visited, although i set text-doco to be none
+a:visited {
+	position: fixed;
+	top: 10vh;
+	left: 1vw;
+	width: 70px;
+	background-color: #CDDAFD;
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}*/
+
+}
+
+nav li {
+	padding: 1vh 0;
+	text-align: center;
+}
+
+nav li:hover {
+	background-color: white;
+	color: #BEE1E6;
+}
+
+.footer {
+	background-color: #1D1F26;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #feece5;
+}
+
+article {
+	text-align: center;
+}
+
