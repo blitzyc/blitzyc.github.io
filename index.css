@@ -38,6 +38,8 @@ nav {
 	width: 70px;
 	background-color: #BEE1E6;
 	color: white;
+	box-sizing: border-box;
+	text-align: center;
 	font-family: sans-serif;
 } /*navagation 改成圓形menu icon選單,隨著頁面可以跑,除了首頁最底下要有打開的選單*/
 
@@ -53,16 +55,17 @@ a:visited {
 	font-family: sans-serif;
 }*/
 
-}
-
-nav li {
-	padding: 1vh 0;
-	text-align: center;
-}
-
-nav li:hover {
+nav div:hover {
 	background-color: white;
 	color: #BEE1E6;
+}
+
+homenav {
+    background-color: grey;
+    overflow: hidden;
+    position: fixed;
+    bottom: 60;
+    width: 100%;
 }
 
 .footer {
