@@ -68,6 +68,10 @@ homenav {
     width: 100%;
 }
 
+img {
+	width: 100%;
+}
+
 .footer {
 	background-color: #1D1F26;
 	font-family: 'Raleway', sans-serif;
