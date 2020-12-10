@@ -81,5 +81,8 @@ img {
 
 article {
 	text-align: center;
+	display: block;
+	font-weight: 400;
+    margin: 50px 400px;
 }
 
