@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	height: 100%;
+	width : 100%;
+	font-size: 2.4vh;/*1.6vh 1.5x--> 2.4vh*/
+	font-family: serif;
+}
+
+article {
+	padding: 4vh 2vw;
+}
+
+h1 {
+	margin: 10px;
+	font-size: 4.8vh;
+}
+
+@media only screen and (min-width: 1200px) {
+	body {
+		font-size: 1.6vh;
+	}
+
+	article {
+		padding: 4vh 10vw;
+	}
+
+	h1 {
+		font-size: 3.2vh;
+	}
+}
